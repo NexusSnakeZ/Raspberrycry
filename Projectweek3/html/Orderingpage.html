@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orderingpage</title>
+    <link rel="stylesheet" href="../Css/ContactUs.css".css">
+</head>
+<body>
+<header>
+
+    <nav id="Mobile-nav">
+        <ul>
+            <li>
+                <a href="Homepage.html">
+                    <img src="../Media/Logo.png" alt="Logo">
+                </a>
+            </li>
+        </ul>
+        
+        <div id="hamburger"><i class="fa-solid fa-bars"></i></div>
+    </nav>
+
+    <div id="mobile-menu">
+        <ul>
+            <li><a href="./Homepage.html">Home<i class="fa-solid fa-house"></i></a></li>
+            <li><a href="./Orderingpage.html">Cart<i class="fa-solid fa-cart-shopping"></i></a></li>
+            <li><a href="./ContactUs.html">Contact us<i class="fa-solid fa-envelope"></i></a></li>
+        </ul>
+    </div>
+
+</header>
+    <div class="container">
+        <action="../action_page2.php">
+      
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+          <label for="email">Email</label>
+          <input type="email" name="emailadress" id="Emails" required>
+          <input type="text" id="adress" name="Livingadress" required>
+          <label for="Livingadress">Adress</label>
+          <label for="country">Country</label required></label> 
+          <select id="country" name="country" required>
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="netherlands">Netherlands</option>
+            <option value="germany">Germany</option>
+            <option value="france">France</option>
+            <option value="ukraine">Ukraine</option>
+            <option value="spain">Spain</option>
+            <option value="italy">Italy</option>
+          </select>
+      
+          <label for="subject">Subject</label>
+          <textarea id="subject" name="subject" placeholder="Special delivery needs?" style="height:200px"></textarea>
+      
+          <input type="submit" value="Submit">
+      
+        </form>
+      </div>
+      <script src="../Js/Animation.js"></script>
+</body>
+</html>
