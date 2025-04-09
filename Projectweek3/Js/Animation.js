@@ -1,7 +1,7 @@
-document.getElementById("hamburger").addEventListener("click", function() {
-    document.getElementById("mobile-menu").classList.toggle("visible");
-});
+const hamburger = document.getElementById("hamburger");
+    const mobileMenu = document.getElementById("mobile-menu");
 
-document.getElementById("hamburger").addEventListener("click", function() {
-    document.getElementById("hamburger").classList.toggle("active");
-});
+    hamburger.addEventListener("click", function () {
+        hamburger.classList.toggle("active");
+        mobileMenu.classList.toggle("visible");
+    })
